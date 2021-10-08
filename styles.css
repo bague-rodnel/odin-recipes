@@ -69,10 +69,6 @@ a:hover {
   max-width: 1200px;
 }
 
-.home {
-  width: 100%;
-}
-
 .home div {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -80,7 +76,7 @@ a:hover {
 
 .logo {
   width: 100%;
-  max-width: 580px;
+  max-width: 480px;
   display: block;
   margin: 0 auto;
 }
@@ -106,6 +102,9 @@ a:hover {
   margin-top: 2.4rem;
   margin-bottom: 4.6rem;
   position: relative;
+
+  display: flex;
+  justify-content: center;
 }
 
 .img-container::before {
@@ -113,6 +112,8 @@ a:hover {
   display: block;
   height: 100%;
   width: 100%;
+  max-width: 720px;
+  max-height: 560px;
   position: absolute;
   top: 0;
   background-color: var(--color-green);
@@ -120,10 +121,11 @@ a:hover {
   z-index: -2;
 }
 
-.img-container_img {
-  width: 100%;
+.dish-img {
   object-fit: cover;
-  max-height: 80vh;
+  width: 100%;
+  max-width: 720px;
+  max-height: 560px;
 }
 
 .img-container::after {
@@ -131,6 +133,8 @@ a:hover {
   display: block;
   height: 100%;
   width: 100%;
+  max-width: 720px;
+  max-height: 560px;
   position: absolute;
   top: 0;
   background-color: #333;
@@ -148,6 +152,7 @@ a:hover {
 }
 
 .aside-links {
+  font-size: 1rem;
   text-align: center;
   position: sticky;
   top: 70px;
@@ -157,7 +162,15 @@ a:hover {
   list-style-type: none;
 }
 
+@media (min-width: 480px) {
+  html {
+    font-size: 18px;
+  }
+}
 @media (min-width: 800px) {
+  html {
+    font-size: 20px;
+  }
   .home {
     display: flex;
   }

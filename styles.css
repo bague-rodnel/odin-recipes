@@ -175,7 +175,7 @@ a:hover {
 
   .grid-lg {
     display: grid;
-    gap: 40px;
+    gap: 80px;
     grid-template-columns: 1fr 4fr;
     grid-template-areas: "aside main";
   }

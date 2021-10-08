@@ -9,119 +9,82 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@300;400;500&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="/index.css" />
+  <link rel="stylesheet" href="/styles.css" />
 
   <title>Humba | Lutong Bahay</title>
 </head>
 
 <body>
-  <aside>
-    <nav>
-      <h3 class="heading">Still hungry? <br />Try these</h3>
-      <ul class="nav-links">
-        <li class="nav-links_recipe">
-          <a href="/recipes/adobong-manok.html">Adobong Manok</a>
-        </li>
-        <li class="nav-links_recipe">
-          <a href="/recipes/dinuguan.html">Dinuguan</a>
-        </li>
-        <li class="nav-links_recipe">
-          <a href="/recipes/halo-halo.html">Halo-halo</a>
-        </li>
-      </ul>
-    </nav>
-  </aside>
-  <main>
-    <h1 class="heading">Humba</h1>
-    <div class="img-container">
-      <img class="img-container_img" src="/images/humba.jpg" alt="chicken adobo" />
-    </div>
-    <article class="description">
-      <h2 class="heading">What is it?</h2>
-      <p>
-        Traditional Pork Humba cooked with a soy based sauce flavored with star anise. Serve with a side of rice and
-        your favorite vegetables. I prefer the sweet version to the more sour one - otherwise, it's not far off from
-        being another adobo.
-      </p>
-    </article>
-    <section class="details">
-      <article class="ingredients">
-        <h2 class="heading">You will need</h2>
+  <div class="content-center grid-lg">
+    <main>
+      <h1 class="heading h1">Humba</h1>
+      <div class="img-container">
+        <img class="img-container_img" src="/images/humba.jpg" alt="chicken adobo" />
+      </div>
+      <section class="description">
+        <article>
+          <h2 class="heading h2">What is it?</h2>
+          <p>
+            Traditional Pork Humba cooked with a soy based sauce flavored with star anise. Serve with a side of rice and
+            your favorite vegetables. I prefer the sweet version to the more sour one - otherwise, it's not far off from
+            being another adobo.
+          </p>
+        </article>
+      </section>
+      <section class="details" id="details">
+        <article class="ingredients">
+          <a href="#details">
+            <h2 class="heading h2">You will need</h2>
+          </a>
+          <ul>
+            <li> 1 pound pork (pork belly, pork hocks, and pork ham cut into adobo size) </li>
+            <li> 5 cloves garlic, minced </li>
+            <li> 3 tablespoons soy sauce </li>
+            <li> 2 tablespoons vinegar </li>
+            <li> 3 tablespoons brown sugar </li>
+            <li> 1 teaspoon ground black pepper </li>
+            <li> 2 tablespoons oil </li>
+            <li> 3 pieces star anise </li>
+            <li> 1/2 cup water </li>
+            <li> 1/4 teaspoon salt </li>
+            <li> 1/4 teaspoon msg or vetsin </li>
+          </ul>
+        </article>
+        <article class="instructions">
+          <h2 class="heading h2">Prepare the dish</h2>
+          <ol>
+            <li> Marinate pork in soy sauce, garlic, vinegar, msg or vetsin, ground pepper salt in a bowl. </li>
+            <li> Heat a large pan on the stove then add the marinated pork stir until it brown (cook under medium heat).
+            </li>
+            <li> Add the star anise and brown sugar. </li>
+            <li> Add water then cover the pan and let boil on medium for 25 minutes (add water as needed) or until pork
+              totally absorbed the sauce and produce its natural oil. </li>
+            <li> Transfer to a serving plate and serve. </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+    <aside>
+      <nav class="aside-links">
+        <a href="/">
+          <img class="logo" src="/images/logo.png" style="width: 100%;" alt="logo">
+        </a>
+
+        <h3 class="heading h3 color--orange">Still hungry? <br />Try these</h3>
         <ul>
           <li>
-            1 pound pork (pork belly, pork hocks, and pork ham cut into adobo size)
-
+            <a href="/recipes/adobong-manok.html">Adobong Manok</a>
           </li>
           <li>
-            5 cloves garlic, minced
-
+            <a href="/recipes/dinuguan.html">Dinuguan</a>
           </li>
           <li>
-            3 tablespoons soy sauce
-
-          </li>
-          <li>
-            2 tablespoons vinegar
-
-          </li>
-          <li>
-            3 tablespoons brown sugar
-
-          </li>
-          <li>
-            1 teaspoon ground black pepper
-
-          </li>
-          <li>
-            2 tablespoons oil
-
-          </li>
-          <li>
-            3 pieces star anise
-
-          </li>
-          <li>
-            1/2 cup water
-
-          </li>
-          <li>
-            1/4 teaspoon salt
-
-          </li>
-          <li>
-            1/4 teaspoon msg or vetsin
-
+            <a href="/recipes/halo-halo.html">Halo-halo</a>
           </li>
         </ul>
-      </article>
-      <article class="instructions">
-        <h2 class="heading">Prepare the dish</h2>
-        <ol>
-          <li>
-            Marinate pork in soy sauce, garlic, vinegar, msg or vetsin, ground pepper salt in a bowl.
-
-          </li>
-          <li>
-            Heat a large pan on the stove then add the marinated pork stir until it brown (cook under medium heat).
-
-          </li>
-          <li>
-            Add the star anise and brown sugar.
-
-          </li>
-          <li>
-            Add water then cover the pan and let boil on medium for 25 minutes (add water as needed) or until pork
-            totally absorbed the sauce and produce its natural oil.
-
-          </li>
-          <li>
-            Transfer to a serving plate and serve.
-
-          </li>
-        </ol>
-      </article>
-    </section>
-  </main>
+      </nav>
+    </aside>
+  </div>
 </body>
 
 </html>

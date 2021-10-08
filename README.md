@@ -1,6 +1,6 @@
 A simple recipe website
 
-Milestone project under The Odin Project. We're only supposed to showcase our know-how of html links. I just wanted to express what I would probably showcase of Filipino cuisine to a foreigner.
+Assignment under The Odin Project. We're only supposed to showcase our know-how of html links. I just wanted to express what I would probably showcase of Filipino cuisine to a foreigner.
 
 Didn't adhere to the iteration 1 requirements.
 
